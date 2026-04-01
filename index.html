@@ -1,1 +1,146 @@
-<html><body><h1>CopifyX Developer Page</h1></body></html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CopifyX</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            color: white;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+            color: #38bdf8;
+        }
+
+        header p {
+            color: #cbd5f5;
+            margin-top: 10px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .hero h2 {
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+
+        .hero span {
+            color: #38bdf8;
+        }
+
+        .hero p {
+            max-width: 600px;
+            margin: auto;
+            color: #94a3b8;
+        }
+
+        .btn {
+            margin-top: 25px;
+            padding: 12px 25px;
+            border: none;
+            background: #38bdf8;
+            color: black;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #0ea5e9;
+        }
+
+        .features {
+            padding: 40px 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .card {
+            background: rgba(255,255,255,0.05);
+            padding: 20px;
+            border-radius: 12px;
+            backdrop-filter: blur(10px);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            background: rgba(255,255,255,0.1);
+        }
+
+        .card h3 {
+            color: #38bdf8;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>CopifyX</h1>
+    <p>Copy Anything, Anywhere</p>
+</header>
+
+<section class="hero">
+    <h2>Unlock Text from <span>Any App</span></h2>
+    <p>
+        CopifyX lets you grab text from anywhere on your screen—even from apps that don’t allow copying.
+        Fast, simple, and completely private.
+    </p>
+    <button class="btn">Get Started</button>
+</section>
+
+<section class="features">
+
+    <div class="card">
+        <h3>Universal Grab</h3>
+        <p>Extract text from any screen instantly.</p>
+    </div>
+
+    <div class="card">
+        <h3>Instant Access</h3>
+        <p>Floating bubble and quick controls for fast use.</p>
+    </div>
+
+    <div class="card">
+        <h3>Privacy First</h3>
+        <p>Works offline. Your data never leaves your device.</p>
+    </div>
+
+    <div class="card">
+        <h3>Seamless Workflow</h3>
+        <p>Copy and paste text into any app in seconds.</p>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 CopifyX</p>
+</footer>
+
+</body>
+</html>
